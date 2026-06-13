@@ -69,7 +69,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
    const vec = new THREE.Vector3(),
       ang = new THREE.Vector3(),
       rot = new THREE.Vector3(),
-      dir = new THREE.Vector3(); // prettier-ignore vji vji
+      dir = new THREE.Vector3(); // prettier-ignore vji vji vji
    const segmentProps = {
       type: "dynamic",
       canSleep: true,

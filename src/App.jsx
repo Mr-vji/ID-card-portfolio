@@ -116,7 +116,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
          });
       }
       if (fixed.current) {
-         // Fix most of the jitter when over pulling the card
+         // Fix most of the jitter when over pulling the cardvji
          [j1, j2].forEach((ref) => {
             if (!ref.current.lerped)
                ref.current.lerped = new THREE.Vector3().copy(ref.current.translation());
